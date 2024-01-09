@@ -1,0 +1,83 @@
+.footer {
+  position: relative;
+  background: url(../webImages/footer.webp) no-repeat;
+  background-size: cover;
+  padding: 20rem 0 6rem;
+  color: #fff;
+  z-index: 1;
+  overflow: hidden;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 20rem;
+    background: #000;
+  }
+
+  &__top {
+    background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+    text-align: center;
+    &-logo {
+      width: 16rem;
+      margin-bottom: 3rem;
+    }
+    .tel {
+      color: #fff;
+      font-size: 2.9rem;
+      font-weight: 400;
+      line-height: 2rem; /* 100% */
+      margin-bottom: 1rem;
+    }
+    .email,
+    p {
+      color: #fff;
+      font-size: 1.4rem;
+      font-weight: 400;
+      line-height: 2rem;
+    }
+    .h4 {
+      font-family: "Ginger";
+      font-size: 9rem;
+      font-weight: 400;
+      text-transform: capitalize;
+      line-height: 0.8;
+      margin-top: 8rem;
+    }
+  }
+  &__bottom {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    padding: 7rem 0;
+    margin-top: 5rem;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: .2rem;
+        background: #BFBFBF;
+        opacity: 0.4;   
+    }
+    ul {
+      display: flex;
+      gap: 3rem;
+      justify-content: center;
+      padding: 0;
+
+      li {
+        a {
+          color: #fff;
+          font-size: 1.4rem;
+          font-weight: 400;
+          letter-spacing: .42rem;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}

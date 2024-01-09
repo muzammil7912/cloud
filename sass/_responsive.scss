@@ -1,0 +1,573 @@
+@media only screen and (max-width: 979px) {
+  html {
+    font-size: 62.5%;
+  }
+  .container {
+    max-width: 96%;
+  }
+  .header {
+    &__center {
+      position: fixed;
+      height: 100%;
+      background: $secondary-color;
+      left: -100%;
+      top: 0;
+      width: 30rem;
+      padding: 7rem 2rem;
+      transition: 0.5s;
+      &.active {
+        left: 0;
+      }
+      nav {
+        ul {
+          flex-direction: column;
+          gap: 1rem;
+        }
+      }
+    }
+    &__right {
+      width: auto;
+      .navIcon {
+        display: block;
+      }
+      .mycart {
+        display: none;
+      }
+    }
+  }
+  .banner {
+    .img1 {
+      height: 113vh;
+      object-fit: cover;
+    }
+    .banner_img {
+      bottom: -8rem;
+    }
+    &_img {
+      .banner_img-Box {
+        img {
+          width: 100%;
+        }
+      }
+      .banner_img-txt {
+        top: -12%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 84%;
+        border-radius: 4rem;
+        padding: 3rem 4rem;
+        padding-right: 4rem;
+        padding-bottom: 4rem;
+      }
+    }
+    .h6 {
+      line-height: 1;
+      left: -6rem;
+      bottom: -2rem;
+    }
+    .imm2 {
+      width: 100%;
+    }
+  }
+
+  .section1 {
+    padding: 14rem 0 8rem;
+    .a01 {
+      display: none;
+    }
+    h1 {
+      font-size: 6.5rem;
+      text-align: center;
+    }
+    &__bottom {
+      width: 100%;
+      flex-direction: column;
+      text-align: center;
+      margin: 2rem auto 0;
+      &-right {
+        display: none;
+      }
+    }
+  }
+
+  .section2 {
+    &Main {
+      grid-template-columns: 1fr;
+
+      &__right {
+        &top {
+          grid-template-columns: 0.2fr 1.2fr;
+          .section2Main__righttopBox1 {
+            padding-top: 0rem;
+            display: flex;
+            flex-direction: column;
+            .im1 {
+              height: 70%;
+              margin-bottom: 2rem;
+            }
+            .im2 {
+              height: 30%;
+              display: block;
+            }
+          }
+          .section2Main__righttopBox:nth-child(3) {
+            display: none;
+          }
+        }
+        &bottom {
+          grid-template-columns: 1fr;
+          &__left {
+            display: flex;
+            flex-direction: column;
+            &-top {
+              order: 2 !important;
+            }
+            &-bottom {
+              p {
+                text-align: center;
+              }
+            }
+          }
+          &__right {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .section3 {
+    &__heading {
+      width: 96%;
+      h2 {
+        font-size: 4rem;
+      }
+    }
+    &__Bottom {
+      width: 90%;
+      .swiper-slide.swiper-slide-prev {
+        left: 22%;
+        transform: scale(0.7);
+      }
+
+      .swiper-slide.swiper-slide-next {
+        right: 22%;
+        transform: scale(0.7);
+        z-index: -1;
+      }
+      &Bo {
+        &x2 {
+          top: 0;
+        }
+        .Indulge {
+          display: none;
+        }
+      }
+      .Indulge2 {
+        display: block !important;
+      }
+    }
+  }
+
+  .section4 {
+    .swiper-Stories {
+      padding-bottom: 0;
+    }
+    &_ {
+      font-size: 18.3953rem;
+      top: -9rem;
+    }
+    &_h {
+      margin-top: 2rem;
+      font-size: 4rem;
+      text-align: center;
+    }
+    .swiper-pagination {
+      display: none;
+    }
+    &Bottom {
+      .swiperbtn {
+        width: fit-content;
+        right: 0;
+        bottom: 3rem;
+        left: 0;
+        margin: 0 auto;
+      }
+      &Box {
+        padding: 3rem 2rem;
+        &_ {
+          img {
+            width: calc(100% + 2rem);
+            height: auto;
+          }
+          h4 {
+            width: 100%;
+            left: 0%;
+            top: 0;
+            margin-top: 3rem;
+          }
+        }
+        p {
+          margin-top: 2rem;
+          width: 100%;
+        }
+      }
+      &Box2 {
+        &_ {
+          padding: 4rem 2rem 4rem;
+          img {
+            width: 100%;
+            height: auto;
+          }
+          h4 {
+            width: 100%;
+            left: 0;
+            top: 0;
+            margin-top: 3rem;
+          }
+        }
+        p {
+          padding: 4rem 4rem;
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .section5 {
+    padding: 12rem 0 7rem;
+    margin-top: 0rem;
+    .container {
+      width: 98%;
+    }
+    &_txt {
+      position: relative;
+      top: 0;
+      left: 0;
+      font-size: 5.1rem;
+    }
+    &_t {
+      font-size: 38.3953rem;
+      top: -2rem;
+      left: -5rem;
+    }
+    &Main {
+      display: none;
+    }
+    &Main2 {
+      display: block !important;
+      margin-top: 5rem;
+      img {
+        width: 100%;
+        height: 38.3rem;
+        object-fit: cover;
+      }
+    }
+    &Main3 {
+      display: block;
+      padding-top: 5rem;
+      p {
+        font-size: 1.4rem;
+        line-height: 1.7;
+      }
+      .btn1 {
+        margin: 0;
+        margin-top: 4rem;
+      }
+    }
+  }
+
+  .section6 {
+    top: 0;
+    padding-top: 6rem;
+    &Main {
+      width: 100%;
+      .h5 {
+        font-size: 5.5rem;
+        margin-bottom: 4rem;
+      }
+      &_ {
+        &left {
+          width: 70%;
+          margin: 0 auto;
+          text-align: center;
+        }
+        &right {
+          form {
+            flex-direction: column;
+
+            button {
+              width: fit-content;
+              padding: 1.6rem 8rem;
+              margin: 0 auto;
+              margin-top: 2rem;
+            }
+          }
+        }
+        grid-template-columns: 1fr;
+      }
+    }
+  }
+
+  .section6 {
+    &Bottom {
+      margin-top: 7rem;
+      .swiper-slide {
+        top: 0 !important;
+      }
+      &Box {
+        img {
+        }
+      }
+    }
+  }
+
+  .footer {
+    padding: 7rem 0 6rem;
+    &::before {
+      height: 7rem;
+    }
+    &__top {
+      .h4 {
+        font-size: 5.9rem;
+      }
+    }
+    &__bottom {
+      padding: 4rem 0;
+      ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+      }
+    }
+  }
+
+  .Innerbanner {
+    .h2 {
+      right: 0;
+      left: 0;
+      margin: 0 auto;
+      text-align: center;
+      bottom: auto;
+      top: 55%;
+      transform: translateY(-50%);
+      font-size: 9rem;
+    }
+    .img1 {
+      height: 40rem;
+      object-fit: cover;
+    }
+  }
+
+  .InnerPageS {
+    &Txt {
+      width: 90%;
+      font-size: 6rem;
+    }
+    &Main {
+      grid-template-columns: 1fr;
+      &_left {
+        display: none;
+      }
+      &_center {
+        margin-top: 3rem;
+        padding: 0 5rem;
+      }
+      &_right {
+        padding-top: 10rem;
+        margin-bottom: 10rem;
+        .img2 {
+          left: 0;
+          top: -6rem;
+          right: 0;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+  .InnerPageSMain2 {
+    &Box2 {
+      width: 80%;
+      padding: 0 5rem 4rem 5rem;
+      .h3 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+      }
+    }
+  }
+  .InnerPageS2 {
+    &txt {
+      font-size: 5rem;
+      top: 0;
+    }
+    &Main {
+      grid-template-columns: 1fr;
+      &__left {
+        order: 2;
+      }
+      &__right {
+        padding: 1rem 0rem 2rem;
+        order: 1;
+      }
+    }
+  }
+  .grid-col70 {
+    grid-template: auto/5fr 90fr 5fr;
+  }
+  .FoodSection1 {
+    &Txt {
+      .h2 {
+        font-size: 7rem;
+      }
+    }
+    &Main {
+      grid-template-columns: 1fr;
+    }
+  }
+  .FoodSection2 {
+    &thead {
+      ul {
+        gap: 1rem 1rem;
+        li {
+          a {
+            font-size: 3.2rem;
+          }
+        }
+      }
+    }
+    &Body {
+      grid-template-columns: repeat(2, 1fr);
+      &Box  {
+        &txt {
+          bottom: 4rem;
+          font-size: 3.7552rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 461px) {
+  .banner {
+    .img1 {
+      height: 90vh;
+    }
+    .banner_img .banner_img-Box {
+      img {
+        width: 75%;
+        margin: 0 auto;
+      }
+    }
+
+    .banner_img .banner_img-txt {
+      top: -18%;
+      padding-bottom: 6rem;
+    }
+  }
+  .section3 {
+    &__Bottom {
+      &Box {
+        padding: 5rem 3rem 2rem;
+      }
+    }
+  }
+  .section4 {
+    &_ {
+      font-size: 12.7953rem;
+    }
+  }
+
+  .section5 {
+    &_t {
+      font-size: 21.3953rem;
+      top: -2rem;
+      left: -5rem;
+    }
+  }
+
+  .InnerPageS {
+    &Txt {
+      padding-top: 5rem;
+      font-size: 4rem;
+    }
+    &Main {
+      &_center {
+        padding: 0 2rem;
+      }
+    }
+  }
+  .InnerPageS2 {
+    &txt {
+      font-size: 3rem;
+    }
+  }
+  .InnerPageSMain2 {
+    .img1 {
+      height: 25rem;
+      object-fit: cover;
+    }
+    &Box2 {
+      width: 96%;
+      left: 2%;
+    }
+    &Box {
+      height: 9rem;
+    }
+  }
+
+
+.FoodSection1{
+  &Txt {
+    .h2 {
+      font-size: 4rem;
+    }
+  }
+  &Main {
+    &__Right {
+      p {
+        padding: 0rem;
+      }
+    }
+  }
+}
+.FoodSection2 {
+  &thead  {
+    ul  {
+      li {
+        a {
+          font-size: 1.6rem;
+          padding: 1rem 1rem;
+        }
+      }
+    }
+  }
+  &Body {
+    grid-template-columns: 1fr;
+  }
+}
+
+.Innerbanner  {
+  .h2 {
+    font-size: 6rem;
+  }
+}
+.FoodSecB  {
+  &h2 {
+    span {
+      font-size: 5.3273rem;
+    }
+    &B {
+      display: none;
+    }
+  }
+  &Main {
+    grid-template-columns: 1fr;
+    &_Right {
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+}

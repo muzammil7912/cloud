@@ -1,0 +1,66 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+  padding: 2rem 0;
+  .block__inner {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    width: 20%;
+
+    img {
+      width: 14.2rem;
+    }
+  }
+
+  &__center {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 5rem;
+
+      li {
+        a {
+          color: #fff;
+          font-size: 1.4rem;
+          font-weight: 400;
+          letter-spacing: .42rem;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  &__right {
+    width: 20%;
+    .mycart {
+        position: relative;
+        padding: 1rem 3rem;
+        width: fit-content;
+        margin-left: auto;
+        span {
+            color: #FFF;
+            font-size: 1.6rem;
+            font-weight: 400;
+            letter-spacing: .48rem;
+            padding-left: 6rem;
+            text-transform: uppercase;
+        }
+        svg {
+            position: absolute;
+            right: 0;
+            left: 0;
+            margin: 0 auto;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+  }
+}
